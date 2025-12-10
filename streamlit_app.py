@@ -76,48 +76,46 @@ def is_charcoal_item(item_id, items):
 # --------------------------------------------------------------------
 # RAW MATERIAL RESOLVER
 # --------------------------------------------------------------------
-def resolve(item_id, items, recipes, visited=None):
-    """
-    Return a flat dict of raw materials for this item.
-    Handles sand as a terminal item.
-    """
+def resolve(item_id, items, recipes, visited=None, needed=1):
     if visited is None:
         visited = set()
 
     if item_id in visited:
         return {}
-
     visited.add(item_id)
 
+    # stop recursion for sand/charcoal etc.
     if is_sand_item(item_id, items) or is_charcoal_item(item_id, items):
-        return {item_id: 1}
+        return {item_id: needed}
 
     craft_index = craftable_index()
 
-    # Not craftable → raw
+    # raw item
     if item_id not in craft_index:
-        return {item_id: 1}
+        return {item_id: needed}
 
     recipe = recipes[craft_index[item_id]]
+    output_stack = recipe["outputs"][0]["count"]
+    crafts_needed = (needed + output_stack - 1) // output_stack  # ceil division
+
     breakdown = {}
 
     for ing in recipe["itemIngredients"]:
         ing_id = ing["entity"]["id"]
-        qty = ing["count"]
+        qty_per_craft = ing["count"]
 
-        sub_tree = resolve(ing_id, items, recipes, visited.copy())
+        sub_needed = qty_per_craft * crafts_needed
 
-        for material, sub_qty in sub_tree.items():
-            breakdown[material] = breakdown.get(material, 0) + sub_qty * qty
+        sub_tree = resolve(ing_id, items, recipes, visited.copy(), needed=sub_needed)
 
-    return breakdown
+        for mat, qty in sub_tree.items():
+            breakdown[mat] = breakdown.get(mat, 0) + qty
 
 
 # --------------------------------------------------------------------
 # INTERMEDIATE CRAFTABLE RESOLVER
 # --------------------------------------------------------------------
-def resolve_craftables(item_id, items, recipes, visited=None, is_root=True):
-    """Return dict of intermediate craftable items."""
+def resolve_craftables(item_id, items, recipes, visited=None, needed=1, is_root=True):
     if visited is None:
         visited = set()
 
@@ -127,8 +125,16 @@ def resolve_craftables(item_id, items, recipes, visited=None, is_root=True):
     visited.add(item_id)
     craft_index = craftable_index()
 
+    # stop at sand/charcoal etc.
     if is_sand_item(item_id, items) or is_charcoal_item(item_id, items):
         return {}
+
+    craft_index = craftable_index()
+
+    output_stack = get_output_count(item_id, recipes)
+
+    crafts_needed = (needed + output_stack - 1) // output_stack
+
 
     # Non-root craftable → stop & count
     if not is_root and item_id in craft_index:
@@ -138,21 +144,24 @@ def resolve_craftables(item_id, items, recipes, visited=None, is_root=True):
     if item_id not in craft_index:
         return {}
 
-    recipe = recipes[craft_index[item_id]]
     breakdown = {}
+
+    recipe = recipes[craft_index[item_id]]
 
     for ing in recipe["itemIngredients"]:
         ing_id = ing["entity"]["id"]
-        qty = ing["count"]
+        qty_per_craft = ing["count"]
+
+        sub_needed = qty_per_craft * crafts_needed
 
         sub_tree = resolve_craftables(
-            ing_id, items, recipes, visited.copy(), is_root=False
+            ing_id, items, recipes, visited.copy(),
+            needed=sub_needed,
+            is_root=False
         )
 
-        for craft_item, sub_qty in sub_tree.items():
-            breakdown[craft_item] = breakdown.get(craft_item, 0) + sub_qty * qty
-
-    return breakdown
+        for mat, qty in sub_tree.items():
+            breakdown[mat] = breakdown.get(mat, 0) + qty
 
 
 # --------------------------------------------------------------------
@@ -230,6 +239,15 @@ def get_recipe_crafting_info(item_id, recipes):
     level = recipe.get("skillDifficulty", "N/A")
     return {"skill": skill, "level": level}
 
+def get_output_count(item_id, recipes):
+    craft_index = craftable_index()
+    recipe_id = craft_index.get(item_id)
+    if not recipe_id:
+        return 1  # raw material, no output stack
+    recipe = recipes[recipe_id]
+    return recipe["outputs"][0].get("count", 1)
+
+
 
 # --------------------------------------------------------------------
 # STREAMLIT UI
@@ -287,7 +305,7 @@ if choice:
                 target_id = out["entity"]["id"]
 
     # Raw materials
-    raw = resolve(target_id, items, recipes)
+    raw = resolve(target_id, items, recipes, needed=number_to_craft)
     raw_pretty = prettify_breakdown(raw, items)
 
     st.subheader("🪨 Raw Materials Needed")
@@ -298,7 +316,7 @@ if choice:
     st.dataframe(df_raw, hide_index=True)
 
     # Craftable components
-    craftables = resolve_craftables(target_id, items, recipes)
+    craftables = resolve_craftables(target_id, items, recipes, needed=number_to_craft)
     craft_rows = []
     for item_id, qty in craftables.items():
         info = get_recipe_crafting_info(item_id, recipes)
