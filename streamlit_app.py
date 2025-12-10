@@ -1,53 +1,43 @@
 import streamlit as st
-import cloudscraper
-from functools import lru_cache
 import pandas as pd
+import json
+import os
+from functools import lru_cache
 
 # --------------------------------------------------------------------
-# CONFIG
+# LOCAL DATA LOADER
 # --------------------------------------------------------------------
 
-BASE = "https://data-cdn.gaming.tools/paxdei/data/en"
-VERSION = "1765296186223"
-
-scraper = cloudscraper.create_scraper(
-    browser={
-        "browser": "chrome",
-        "platform": "linux",
-        "mobile": False,
-    }
-)
-
-# --------------------------------------------------------------------
-# FETCH HELPERS
-# --------------------------------------------------------------------
-
-@lru_cache(maxsize=None)
-def fetch_json(filename):
-    """Fetch a JSON file from the Pax Dei CDN."""
-    url = f"{BASE}/{filename}?version={VERSION}"
+def load_local_json(filename):
+    """Load a JSON file from the local /data folder."""
+    path = os.path.join("data", filename)
     try:
-        resp = scraper.get(url)
-        resp.raise_for_status()
-        return resp.json()
+        with open(path, "r") as f:
+            return json.load(f)
     except Exception as e:
-        st.error(f"Failed to fetch {filename}: {e}")
+        st.error(f"Error loading {filename}: {e}")
         return None
 
 
 @lru_cache(maxsize=None)
 def load_items():
-    data = fetch_json("item.json")
-    items = {entry["id"]: entry for entry in data} if data else {}
+    """Load items + wearables + consumables into a single dict."""
+    items = {}
 
-    # Add wearables if available
-    wearables = fetch_json("wearable.json")
+    # Base items
+    base_items = load_local_json("item.json")
+    if base_items:
+        for entry in base_items:
+            items[entry["id"]] = entry
+
+    # Wearables
+    wearables = load_local_json("wearable.json")
     if wearables:
         for w in wearables:
             items[w["id"]] = w
 
-    # Add consumables if needed
-    consumables = fetch_json("consumable.json")
+    # Consumables
+    consumables = load_local_json("consumable.json")
     if consumables:
         for c in consumables:
             items[c["id"]] = c
@@ -57,47 +47,53 @@ def load_items():
 
 @lru_cache(maxsize=None)
 def load_recipes():
-    data = fetch_json("recipe.json")
+    data = load_local_json("recipe.json")
     return {entry["id"]: entry for entry in data} if data else {}
 
 
-# Map: output item_id → recipe_id
+# --------------------------------------------------------------------
+# CRAFTABLE INDEX
+# --------------------------------------------------------------------
 @lru_cache(maxsize=None)
 def craftable_index():
-    recipes = load_recipes()
+    """Map output_item_id → recipe_id"""
     index = {}
-    for recipe_id, recipe in recipes.items():
+    for recipe_id, recipe in load_recipes().items():
         for out in recipe.get("outputs", []):
             index[out["entity"]["id"]] = recipe_id
     return index
 
+
 # --------------------------------------------------------------------
-# DEPENDENCY RESOLVERS
+# SPECIAL CASE: Sand → do NOT recurse into Limestone
 # --------------------------------------------------------------------
 def is_sand_item(item_id, items):
-    item = items.get(item_id, {})
-    return "sand" in item.get("name", "").lower()
+    return "sand" in items.get(item_id, {}).get("name", "").lower()
 
 
+# --------------------------------------------------------------------
+# RAW MATERIAL RESOLVER
+# --------------------------------------------------------------------
 def resolve(item_id, items, recipes, visited=None):
     """
-    Return a flat dict of RAW materials for this item.
-    Correctly handles quantities and avoids double-multiplying.
+    Return a flat dict of raw materials for this item.
+    Handles sand as a terminal item.
     """
     if visited is None:
         visited = set()
 
-    # Special case: Sand should be treated as raw
+    if item_id in visited:
+        return {}
+
+    visited.add(item_id)
+
+    # Sand is a terminal material
     if is_sand_item(item_id, items):
         return {item_id: 1}
 
-    if item_id in visited:
-        return {}
-    visited.add(item_id)
-
     craft_index = craftable_index()
 
-    # Not craftable -> raw
+    # Not craftable → raw
     if item_id not in craft_index:
         return {item_id: 1}
 
@@ -116,32 +112,29 @@ def resolve(item_id, items, recipes, visited=None):
     return breakdown
 
 
+# --------------------------------------------------------------------
+# INTERMEDIATE CRAFTABLE RESOLVER
+# --------------------------------------------------------------------
 def resolve_craftables(item_id, items, recipes, visited=None, is_root=True):
-    """
-    Return intermediate craftable items.
-    Stops recursion at the first craftable ingredient.
-    """
+    """Return dict of intermediate craftable items."""
     if visited is None:
         visited = set()
 
-    # SPECIAL CASE — sand is NOT craftable
+    if item_id in visited:
+        return {}
+
+    visited.add(item_id)
+    craft_index = craftable_index()
+
+    # Sand is never craftable
     if is_sand_item(item_id, items):
         return {}
 
-    if item_id == "item_raw_material_mineral_sand":
-        return {}
-
-    if item_id in visited:
-        return {}
-    visited.add(item_id)
-
-    craft_index = craftable_index()
-
-    # If craftable and not the root → count it exactly once
+    # Non-root craftable → stop & count
     if not is_root and item_id in craft_index:
         return {item_id: 1}
 
-    # Raw materials → no craftables
+    # Raw → nothing to craft
     if item_id not in craft_index:
         return {}
 
@@ -162,8 +155,10 @@ def resolve_craftables(item_id, items, recipes, visited=None, is_root=True):
     return breakdown
 
 
+# --------------------------------------------------------------------
+# TREE RENDER
+# --------------------------------------------------------------------
 def render_tree(item_id, recipes, indent=0):
-    """ASCII craft tree for display."""
     craft_index = craftable_index()
     spacer = "  " * indent
 
@@ -177,6 +172,7 @@ def render_tree(item_id, recipes, indent=0):
         name = ing["entity"]["name"]
         qty = ing["count"]
         sub_id = ing["entity"]["id"]
+
         s += f"{spacer}  {name} x{qty}\n"
         s += render_tree(sub_id, recipes, indent + 2)
 
@@ -186,33 +182,14 @@ def render_tree(item_id, recipes, indent=0):
 # --------------------------------------------------------------------
 # UTILITIES
 # --------------------------------------------------------------------
-
 emoji_map = {
-    "flowers": "🌸",
-    "herbs": "🌿",
-    "plants": "🌱",
-    "trees": "🌲",
-    "wood": "🪵",
-    "minerals": "🪨",
-    "gemstones": "💎",
-
-    "alchemy": "🧪",
-    "glass": "🧴",
-    "metal": "⚒️",
-    "smithing": "⚒️",
-    "weaving": "🧵",
-    "cooking": "🍳",
-    "craftingcomponents": "⚙️",
-
-    "potion": "⚗️",
-    "consumable": "🧴",
-
-    "spelltype": "✨",
-    "enchanting": "🔮",
-
-    "furniture": "🪑",
-    "housing": "🏠",
-
+    "flowers": "🌸", "herbs": "🌿", "plants": "🌱", "trees": "🌲",
+    "wood": "🪵", "minerals": "🪨", "gemstones": "💎",
+    "alchemy": "🧪", "glass": "🧴", "metal": "⚒️",
+    "weaving": "🧵", "cooking": "🍳",
+    "potion": "⚗️", "consumable": "🧴",
+    "spelltype": "✨", "enchanting": "🔮",
+    "housing": "🏠", "furniture": "🪑",
     "default": "📦"
 }
 
@@ -227,30 +204,18 @@ def prettify_breakdown(breakdown, items):
     pretty = {}
     for item_id, qty in breakdown.items():
         item = items[item_id]
-        name = item["name"]
-        pretty[f"{get_item_emoji(item)} {name}"] = qty
-    return dict(sorted(pretty.items(), key=lambda x: x[0]))
-
-
-def prettify_craftable_breakdown(breakdown, items):
-    pretty = {}
-    for item_id, qty in breakdown.items():
-        item = items[item_id]
-        name = item["name"]
-        pretty[f"{get_item_emoji(item)} {name}"] = qty
-    return dict(sorted(pretty.items(), key=lambda x: x[0]))
+        pretty[f"{get_item_emoji(item)} {item['name']}"] = qty
+    return dict(sorted(pretty.items()))
 
 
 def get_item_by_name(name, items):
-    for item in items.values():
-        if item["name"] == name:
-            return item
+    for i in items.values():
+        if i["name"] == name:
+            return i
     return None
 
 
 def get_icon_url(item):
-    if "iconPath" not in item:
-        return None
     return "https://paxdei.gaming.tools" + item["iconPath"].replace("{height}", "128")
 
 
@@ -263,21 +228,19 @@ def get_recipe_crafting_info(item_id, recipes):
     recipe = recipes[recipe_id]
     skill = recipe.get("skillRequired", {}).get("name", "Unknown")
     level = recipe.get("skillDifficulty", "N/A")
-
     return {"skill": skill, "level": level}
 
 
 # --------------------------------------------------------------------
 # STREAMLIT UI
 # --------------------------------------------------------------------
-
 st.title("🧪 Pax Dei Crafting Calculator")
 
 items = load_items()
 recipes = load_recipes()
 
 if not items or not recipes:
-    st.error("Could not load data.")
+    st.error("Failed to load local data files.")
     st.stop()
 
 # Build craftable list
@@ -291,7 +254,7 @@ choice = st.selectbox(
     "Choose an item to craft:",
     craftable_items,
     index=None,
-    placeholder="Type to search for an item..."
+    placeholder="Type to search..."
 )
 
 if choice:
@@ -313,48 +276,42 @@ if choice:
                 """
             )
 
-number_to_craft = st.slider("Choose how many items to craft:", 1, 100, 1)
+number_to_craft = st.slider("How many to craft?", 1, 100, 1)
 
 if choice:
-    # Find ID
+    # Find internal ID
     target_id = None
-    target_name = None
-    for recipe in recipes.values():
-        for out in recipe.get("outputs", []):
+    for r in recipes.values():
+        for out in r["outputs"]:
             if out["entity"]["name"] == choice:
                 target_id = out["entity"]["id"]
-                target_name = choice
 
+    # Raw materials
     raw = resolve(target_id, items, recipes)
     raw_pretty = prettify_breakdown(raw, items)
 
-    st.subheader("🪨 Raw Materials")
+    st.subheader("🪨 Raw Materials Needed")
     df_raw = pd.DataFrame([
         {"Item": name, "Quantity": qty * number_to_craft}
         for name, qty in raw_pretty.items()
     ])
     st.dataframe(df_raw, hide_index=True)
 
+    # Craftable components
     craftables = resolve_craftables(target_id, items, recipes)
-    craft_pretty = prettify_craftable_breakdown(craftables, items)
-
-    st.subheader("⚒️ Craftable Components")
     craft_rows = []
+    for item_id, qty in craftables.items():
+        info = get_recipe_crafting_info(item_id, recipes)
+        display_name = f"{get_item_emoji(items[item_id])} {items[item_id]['name']}"
 
-    for pretty_name, qty in craft_pretty.items():
-        # find underlying ID
-        for item_id, entity in items.items():
-            if entity["name"] in pretty_name:
-                info = get_recipe_crafting_info(item_id, recipes)
-                if info:
-                    craft_rows.append({
-                        "Item": pretty_name,
-                        "Quantity to Craft": qty * number_to_craft,
-                        "Skill": info["skill"],
-                        "Required Level": info["level"],
-                    })
-                break
+        craft_rows.append({
+            "Item": display_name,
+            "Quantity": qty * number_to_craft,
+            "Skill": info["skill"],
+            "Required Level": info["level"]
+        })
 
+    st.subheader("⚒️ Intermediate Crafting")
     df_craft = pd.DataFrame(craft_rows)
     st.dataframe(df_craft, hide_index=True)
 
