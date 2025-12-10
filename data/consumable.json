@@ -1,0 +1,4847 @@
+[
+  {
+    "id": "activatable_potion_potion_of_protection_tiny_5",
+    "name": "Aegis Potion I",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_protection_l01.webp",
+    "tier": 1,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier1.webp",
+    "itemLevel": 7,
+    "cooldownTag": "Potion.PhysicalResistBuff.Small",
+    "givesAttributes": [
+      {
+        "key": "SlashingPhysicalResistance",
+        "value": 10.0
+      },
+      {
+        "key": "PiercingPhysicalResistance",
+        "value": 10.0
+      },
+      {
+        "key": "BluntPhysicalResistance",
+        "value": 10.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "slashingphysicalresistance",
+      "piercingphysicalresistance",
+      "bluntphysicalresistance"
+    ]
+  },
+  {
+    "id": "activatable_potion_potion_of_protection_tiny_11",
+    "name": "Aegis Potion II",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_protection_l01.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 10,
+    "cooldownTag": "Potion.PhysicalResistBuff.Small",
+    "givesAttributes": [
+      {
+        "key": "SlashingPhysicalResistance",
+        "value": 12.0
+      },
+      {
+        "key": "PiercingPhysicalResistance",
+        "value": 12.0
+      },
+      {
+        "key": "BluntPhysicalResistance",
+        "value": 12.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "slashingphysicalresistance",
+      "piercingphysicalresistance",
+      "bluntphysicalresistance"
+    ]
+  },
+  {
+    "id": "activatable_potion_potion_of_protection_very_small_18",
+    "name": "Aegis Potion III",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_protection_l02.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 13,
+    "cooldownTag": "Potion.PhysicalResistBuff.Small",
+    "givesAttributes": [
+      {
+        "key": "SlashingPhysicalResistance",
+        "value": 14.0
+      },
+      {
+        "key": "PiercingPhysicalResistance",
+        "value": 14.0
+      },
+      {
+        "key": "BluntPhysicalResistance",
+        "value": 14.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "slashingphysicalresistance",
+      "piercingphysicalresistance",
+      "bluntphysicalresistance"
+    ]
+  },
+  {
+    "id": "activatable_potion_potion_of_protection_very_small_25",
+    "name": "Aegis Potion IV",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_protection_l02.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 16,
+    "cooldownTag": "Potion.PhysicalResistBuff.Small",
+    "givesAttributes": [
+      {
+        "key": "SlashingPhysicalResistance",
+        "value": 16.0
+      },
+      {
+        "key": "PiercingPhysicalResistance",
+        "value": 16.0
+      },
+      {
+        "key": "BluntPhysicalResistance",
+        "value": 16.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "slashingphysicalresistance",
+      "piercingphysicalresistance",
+      "bluntphysicalresistance"
+    ]
+  },
+  {
+    "id": "activatable_potion_potion_of_protection_medium_61",
+    "name": "Aegis Potion IX",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_protection_l04.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 32,
+    "cooldownTag": "Potion.PhysicalResistBuff.Medium",
+    "givesAttributes": [
+      {
+        "key": "SlashingPhysicalResistance",
+        "value": 26.0
+      },
+      {
+        "key": "PiercingPhysicalResistance",
+        "value": 26.0
+      },
+      {
+        "key": "BluntPhysicalResistance",
+        "value": 26.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "slashingphysicalresistance",
+      "piercingphysicalresistance",
+      "bluntphysicalresistance"
+    ]
+  },
+  {
+    "id": "activatable_potion_potion_of_protection_very_small_32",
+    "name": "Aegis Potion V",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_protection_l02.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 19,
+    "cooldownTag": "Potion.PhysicalResistBuff.Small",
+    "givesAttributes": [
+      {
+        "key": "SlashingPhysicalResistance",
+        "value": 18.0
+      },
+      {
+        "key": "PiercingPhysicalResistance",
+        "value": 18.0
+      },
+      {
+        "key": "BluntPhysicalResistance",
+        "value": 18.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "slashingphysicalresistance",
+      "piercingphysicalresistance",
+      "bluntphysicalresistance"
+    ]
+  },
+  {
+    "id": "activatable_potion_potion_of_protection_small_41",
+    "name": "Aegis Potion VI",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_protection_l03.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 23,
+    "cooldownTag": "Potion.PhysicalResistBuff.Small",
+    "givesAttributes": [
+      {
+        "key": "SlashingPhysicalResistance",
+        "value": 20.0
+      },
+      {
+        "key": "PiercingPhysicalResistance",
+        "value": 20.0
+      },
+      {
+        "key": "BluntPhysicalResistance",
+        "value": 20.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "slashingphysicalresistance",
+      "piercingphysicalresistance",
+      "bluntphysicalresistance"
+    ]
+  },
+  {
+    "id": "activatable_potion_potion_of_protection_small_47",
+    "name": "Aegis Potion VII",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_protection_l03.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 26,
+    "cooldownTag": "Potion.PhysicalResistBuff.Small",
+    "givesAttributes": [
+      {
+        "key": "SlashingPhysicalResistance",
+        "value": 22.0
+      },
+      {
+        "key": "PiercingPhysicalResistance",
+        "value": 22.0
+      },
+      {
+        "key": "BluntPhysicalResistance",
+        "value": 22.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "slashingphysicalresistance",
+      "piercingphysicalresistance",
+      "bluntphysicalresistance"
+    ]
+  },
+  {
+    "id": "activatable_potion_potion_of_protection_small_54",
+    "name": "Aegis Potion VIII",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_protection_l03.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 29,
+    "cooldownTag": "Potion.PhysicalResistBuff.Small",
+    "givesAttributes": [
+      {
+        "key": "SlashingPhysicalResistance",
+        "value": 24.0
+      },
+      {
+        "key": "PiercingPhysicalResistance",
+        "value": 24.0
+      },
+      {
+        "key": "BluntPhysicalResistance",
+        "value": 24.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "slashingphysicalresistance",
+      "piercingphysicalresistance",
+      "bluntphysicalresistance"
+    ]
+  },
+  {
+    "id": "activatable_potion_potion_of_protection_medium_69",
+    "name": "Aegis Potion X",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_protection_l04.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 35,
+    "cooldownTag": "Potion.PhysicalResistBuff.Medium",
+    "givesAttributes": [
+      {
+        "key": "SlashingPhysicalResistance",
+        "value": 28.0
+      },
+      {
+        "key": "PiercingPhysicalResistance",
+        "value": 28.0
+      },
+      {
+        "key": "BluntPhysicalResistance",
+        "value": 28.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "slashingphysicalresistance",
+      "piercingphysicalresistance",
+      "bluntphysicalresistance"
+    ]
+  },
+  {
+    "id": "activatable_foodraw_mushroom_amanitaregalis_maxhp__poisonous_30",
+    "name": "Amanita Regalis",
+    "iconPath": "/images/{height}/environment/nature/resources/mushrooms_poisonous/amanita_regalis/t_amanita_regalis_06_icon.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 17,
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": -2.0
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": -30.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": -9.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "raw_food",
+      "cooked_food",
+      "staminargn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_drink_barley_water_staminaregen_15",
+    "name": "Amber Barley Water",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/bottles/t_pitcherbeer_icon.webp",
+    "tier": 1,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier1.webp",
+    "itemLevel": 8,
+    "cooldownTag": "Drink.BarleyWater",
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 0.3
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 25.0
+      },
+      {
+        "key": "ResistanceFire",
+        "value": 4.0
+      },
+      {
+        "key": "ResistanceCold",
+        "value": 4.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "drinks",
+      "staminargn",
+      "pseudomaxstamina",
+      "resistancefire",
+      "resistancecold"
+    ]
+  },
+  {
+    "id": "activatable_drink_cider_maxstamina_34",
+    "name": "Autumn Heat",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/bottles/t_cider_icon.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 17,
+    "cooldownTag": "Drink.Cider",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 4.6
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 130.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 44.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "drinks",
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_bread_hpregen_20",
+    "name": "Barley and Rye Bread",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/bread/t_icon_barley_rye_bread.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 17,
+    "cooldownTag": "FoodCooked.Bread",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 4.6
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 130.0
+      },
+      {
+        "key": "PiercingPhysicalResistance",
+        "value": 2.0
+      },
+      {
+        "key": "BluntPhysicalResistance",
+        "value": 10.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "healthrgn",
+      "pseudomaxhealth",
+      "piercingphysicalresistance",
+      "bluntphysicalresistance"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_bread_maxhp_7",
+    "name": "Barley Bread",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/bread/t_icon_barley_bread.webp",
+    "tier": 1,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier1.webp",
+    "itemLevel": 8,
+    "cooldownTag": "FoodCooked.Bread",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 3.5
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 100.0
+      },
+      {
+        "key": "PiercingPhysicalResistance",
+        "value": 2.0
+      },
+      {
+        "key": "BluntPhysicalResistance",
+        "value": 10.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "healthrgn",
+      "pseudomaxhealth",
+      "piercingphysicalresistance",
+      "bluntphysicalresistance"
+    ]
+  },
+  {
+    "id": "activatable_drink_barley_water_staminaregen_3",
+    "name": "Barley Water",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/bottles/t_pitcherbeer_icon.webp",
+    "tier": 1,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier1.webp",
+    "itemLevel": 4,
+    "cooldownTag": "Drink.BarleyWater",
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 0.3
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 22.0
+      },
+      {
+        "key": "ResistanceFire",
+        "value": 4.0
+      },
+      {
+        "key": "ResistanceCold",
+        "value": 4.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "drinks",
+      "staminargn",
+      "pseudomaxstamina",
+      "resistancefire",
+      "resistancecold"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_stew_staminaregen_12",
+    "name": "Basic Stew",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/stew/t_icon_basic_stew.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 16,
+    "cooldownTag": "FoodCooked.Stew",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 4.5
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 130.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 43.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_foodraw_mushroom_bay_bolete_maxstamina_67",
+    "name": "Bay Bolete",
+    "iconPath": "/images/{height}/environment/nature/resources/mushrooms_cooking/porcini/t_porcini_01_icon.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 34,
+    "givesAttributes": [
+      {
+        "key": "PseudoMaxHealth",
+        "value": 190.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 40.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "raw_food",
+      "cooked_food",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_stew_staminaregen_39",
+    "name": "Bear Stew",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/stew/t_icon_bear_stew.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 36,
+    "cooldownTag": "FoodCooked.Stew",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 7.0
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 200.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 67.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_foodraw_mushroom_trumpet_maxhp_38",
+    "name": "Black Trumpet",
+    "iconPath": "/images/{height}/environment/nature/resources/mushrooms_cooking/black_trumpet/t_black_trumpet_01_icon.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 21,
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 1.0
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 150.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 10.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "raw_food",
+      "cooked_food",
+      "staminargn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_foodraw_berry_blackberry_hpregen_17",
+    "name": "Blackberry",
+    "iconPath": "/images/{height}/environment/nature/resources/berries/blackberry/t_blackberry_05_inv_state_icon.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 17,
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 4.6
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 130.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 9.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "raw_food",
+      "cooked_food",
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_drink_sirup_staminaregen_35",
+    "name": "Blackberry Syrup",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/bottles/t_sirup_icon.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 34,
+    "cooldownTag": "Drink.Sirup",
+    "givesAttributes": [
+      {
+        "key": "PseudoMaxHealth",
+        "value": 190.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 32.0
+      },
+      {
+        "key": "ResistanceFire",
+        "value": 8.0
+      },
+      {
+        "key": "ResistancePoison",
+        "value": 8.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "drinks",
+      "pseudomaxhealth",
+      "pseudomaxstamina",
+      "resistancefire",
+      "resistancepoison"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_vegetable_stew_maxstamina_2",
+    "name": "Bleak Boiled Veggies",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/stew/t_icon_bleak_boiled_veggies.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 12,
+    "cooldownTag": "FoodCooked.VegetableStew",
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 0.7
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 38.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "staminargn",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_foodraw_berry_blueberry_hpregen_1",
+    "name": "Blueberry",
+    "iconPath": "/images/{height}/environment/nature/resources/berries/blueberry/t_blueberry_05_inv_state_icon.webp",
+    "tier": 1,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier1.webp",
+    "itemLevel": 4,
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 3.0
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 90.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 20.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "raw_food",
+      "cooked_food",
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_drink_mead_staminaregen_16",
+    "name": "Blueberry Mead",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/flagon/t_flagon_02_mead_desatbrown_icon.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 23,
+    "cooldownTag": "Drink.Mead",
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 0.3
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 150.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 26.0
+      },
+      {
+        "key": "ResistanceFire",
+        "value": 13.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "drinks",
+      "staminargn",
+      "pseudomaxhealth",
+      "pseudomaxstamina",
+      "resistancefire"
+    ]
+  },
+  {
+    "id": "activatable_drink_sirup_hpregen_6",
+    "name": "Blueberry Syrup",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/bottles/t_sirup_red_icon.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 14,
+    "cooldownTag": "Drink.Sirup",
+    "givesAttributes": [
+      {
+        "key": "PseudoMaxHealth",
+        "value": 120.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 20.0
+      },
+      {
+        "key": "ResistanceFire",
+        "value": 5.0
+      },
+      {
+        "key": "ResistancePoison",
+        "value": 5.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "drinks",
+      "pseudomaxhealth",
+      "pseudomaxstamina",
+      "resistancefire",
+      "resistancepoison"
+    ]
+  },
+  {
+    "id": "activatable_drink_beer_damagebuff_49",
+    "name": "Bold Winter Stout",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/bottles/t_pitcherbeer_red_icon.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 41,
+    "cooldownTag": "Drink.Beer",
+    "givesAttributes": [
+      {
+        "key": "PseudoMaxHealth",
+        "value": 210.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 73.0
+      },
+      {
+        "key": "ResistanceMental",
+        "value": 9.0
+      },
+      {
+        "key": "ResistancePoison",
+        "value": 9.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "drinks",
+      "pseudomaxhealth",
+      "pseudomaxstamina",
+      "resistancemental",
+      "resistancepoison"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_sausage_staminaregen_33",
+    "name": "Chamois Sausage",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/sausage/t_icon_wolf_sausage.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 24,
+    "cooldownTag": "FoodCooked.Sausage",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 5.5
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 160.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 25.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_roast_damagebuff_42",
+    "name": "Chamois Steak",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/roast/t_icon_wolf_steak.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 31,
+    "cooldownTag": "FoodCooked.Roast",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 6.4
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 180.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 20.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_foodraw_mushroom_chanterelle_maxhp_18",
+    "name": "Chanterelle",
+    "iconPath": "/images/{height}/environment/nature/resources/mushrooms_cooking/chanterelli/t_chanterelli_11_icon.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 11,
+    "givesAttributes": [
+      {
+        "key": "PseudoMaxHealth",
+        "value": 110.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 24.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "raw_food",
+      "cooked_food",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_foodraw_berry_cloudberry_hpregen_57",
+    "name": "Cloudberry",
+    "iconPath": "/images/{height}/environment/nature/resources/berries/cloudberry/t_cloudberry_01_plant_inv_state_icon.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 29,
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 6.1
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 170.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 10.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "raw_food",
+      "cooked_food",
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_potion_arcance_resistance_very_small_30",
+    "name": "Cold Resistance I",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_protectioncold_l03.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 19,
+    "cooldownTag": "Potion.MagicalResistBuff.VerySmall",
+    "givesAttributes": [
+      {
+        "key": "ResistanceCold",
+        "value": 50.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "resistancecold"
+    ]
+  },
+  {
+    "id": "activatable_potion_arcance_resistance_medium_60",
+    "name": "Cold Resistance II",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_protectioncold_l05.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 32,
+    "cooldownTag": "Potion.MagicalResistBuff.Medium",
+    "givesAttributes": [
+      {
+        "key": "ResistanceCold",
+        "value": 70.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "resistancecold"
+    ]
+  },
+  {
+    "id": "activatable_drink_herbal_tea_hpregen_1",
+    "name": "Dandelion Herb Infusion",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/bottles/t_teakettle_brown_icon.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 22,
+    "cooldownTag": "Drink.HerbalTea",
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 0.4
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 50.0
+      },
+      {
+        "key": "ResistanceFire",
+        "value": 4.0
+      },
+      {
+        "key": "ResistanceCold",
+        "value": 4.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "drinks",
+      "staminargn",
+      "pseudomaxstamina",
+      "resistancefire",
+      "resistancecold"
+    ]
+  },
+  {
+    "id": "activatable_foodraw_mushroom_dapperling_maxstamina_47",
+    "name": "Dapperling",
+    "iconPath": "/images/{height}/environment/nature/resources/mushrooms_cooking/dapperling/t_dapperling_01_icon.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 34,
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 6.8
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 190.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 15.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "raw_food",
+      "cooked_food",
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_foodraw_datura_fruit_maxstamina_27",
+    "name": "Datura Fruit",
+    "iconPath": "/images/{height}/environment/nature/resources/herbsflowerspotions/datura/t_datura_inv_state_fruit_icon.webp",
+    "tier": 1,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier1.webp",
+    "itemLevel": 4,
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 0.5
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 90.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 10.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "raw_food",
+      "cooked_food",
+      "staminargn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_foodraw_mushroom_deathcap_staminaregen__poisonous_48",
+    "name": "Deathcap",
+    "iconPath": "/images/{height}/environment/nature/resources/mushrooms_poisonous/death_cap/t_death_cap_01_icon.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 24,
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": -2.0
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": -35.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": -10.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "raw_food",
+      "cooked_food",
+      "staminargn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_sweet_and_dessert_damagebuff_41",
+    "name": "Dense Whitbread",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/bread/t_icon_dense_whitbread_.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 31,
+    "cooldownTag": "FoodCooked.SweetandDessert",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 6.4
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 180.0
+      },
+      {
+        "key": "SlashingPhysicalResistance",
+        "value": 5.0
+      },
+      {
+        "key": "BluntPhysicalResistance",
+        "value": 5.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "healthrgn",
+      "pseudomaxhealth",
+      "slashingphysicalresistance",
+      "bluntphysicalresistance"
+    ]
+  },
+  {
+    "id": "activatable_foodraw_mushroom_divine_maxhp_2",
+    "name": "Divine Mushroom",
+    "iconPath": "/images/{height}/environment/nature/resources/mushrooms_cooking/cremini/t_cremini_01_icon.webp",
+    "tier": 1,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier1.webp",
+    "itemLevel": 7,
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 3.4
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 100.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 5.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "raw_food",
+      "cooked_food",
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_porridge_resistancebuff_45",
+    "name": "Dressed up Porridge",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/porridge/t_icon_dressedup_porridge.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 37,
+    "cooldownTag": "FoodCooked.porridge",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 7.1
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 200.0
+      },
+      {
+        "key": "SlashingPhysicalResistance",
+        "value": 4.0
+      },
+      {
+        "key": "PiercingPhysicalResistance",
+        "value": 17.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "healthrgn",
+      "pseudomaxhealth",
+      "slashingphysicalresistance",
+      "piercingphysicalresistance"
+    ]
+  },
+  {
+    "id": "activatable_drink_wine_maxhp_91",
+    "name": "Dry White",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/bottles/t_winebottle_icon.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 32,
+    "cooldownTag": "Drink.Wine",
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 0.5
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 47.0
+      },
+      {
+        "key": "ResistanceMental",
+        "value": 16.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "drinks",
+      "staminargn",
+      "pseudomaxstamina",
+      "resistancemental"
+    ]
+  },
+  {
+    "id": "activatable_drink_ale_maxhp_42",
+    "name": "Duskfire Ale",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/bottles/t_pitcherale_icon.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 30,
+    "cooldownTag": "Drink.Ale",
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 1.0
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 180.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 15.0
+      },
+      {
+        "key": "ResistanceCold",
+        "value": 15.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "drinks",
+      "staminargn",
+      "pseudomaxhealth",
+      "pseudomaxstamina",
+      "resistancecold"
+    ]
+  },
+  {
+    "id": "activatable_foodraw_berry_elderberry_maxstamina_19",
+    "name": "Elderberry",
+    "iconPath": "/images/{height}/environment/nature/resources/berries/elderberry/t_elderberry_var10_inv_state_icon.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 23,
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 1.0
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 150.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 15.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "raw_food",
+      "cooked_food",
+      "staminargn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_drink_sirup_hpregen_44",
+    "name": "Elderberry Syrup",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/bottles/t_sirup_red_icon.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 38,
+    "cooldownTag": "Drink.Sirup",
+    "givesAttributes": [
+      {
+        "key": "PseudoMaxHealth",
+        "value": 200.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 35.0
+      },
+      {
+        "key": "ResistanceFire",
+        "value": 9.0
+      },
+      {
+        "key": "ResistancePoison",
+        "value": 9.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "drinks",
+      "pseudomaxhealth",
+      "pseudomaxstamina",
+      "resistancefire",
+      "resistancepoison"
+    ]
+  },
+  {
+    "id": "activatable_foodraw_mushroom_stinkhorn_maxhp__poisonous_66",
+    "name": "Elegant Stinkhorn",
+    "iconPath": "/images/{height}/environment/nature/resources/mushrooms_poisonous/elegant_stinkhorn/t_elegant_stinkhorn_01_icon.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 44,
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": -6.0
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": -20.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": -20.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "raw_food",
+      "cooked_food",
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_foodraw_mushroom_enoki_hpregen_9",
+    "name": "Enoki",
+    "iconPath": "/images/{height}/environment/nature/resources/mushrooms_cooking/enoki/t_enoki_01_icon.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 21,
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 5.1
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 150.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 10.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "raw_food",
+      "cooked_food",
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_drink_cider_resistancebuff_11",
+    "name": "Farmhouse Cider",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/bottles/t_cider_black_icon.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 18,
+    "cooldownTag": "Drink.Cider",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 4.8
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 140.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 46.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "drinks",
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_roast_maxstamina_38",
+    "name": "Farmhouse Roast",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/roast/t_icon_farmhouse_roast.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 27,
+    "cooldownTag": "FoodCooked.Roast",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 5.9
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 170.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 20.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_sausage_hpregen_19",
+    "name": "Fatty Boar Sausage",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/sausage/t_icon_fatty_boar_sausage.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 17,
+    "cooldownTag": "FoodCooked.Sausage",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 4.6
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 130.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 20.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_stew_staminaregen_32",
+    "name": "Fatty Boar Stew",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/stew/t_icon_fatty_boar_stew.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 30,
+    "cooldownTag": "FoodCooked.Stew",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 6.3
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 180.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 60.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_drink_herbal_tea_maxhp_4",
+    "name": "Fennel Tea",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/bottles/t_teakettle_icon.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 26,
+    "cooldownTag": "Drink.HerbalTea",
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 0.5
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 55.0
+      },
+      {
+        "key": "ResistanceFire",
+        "value": 5.0
+      },
+      {
+        "key": "ResistanceCold",
+        "value": 5.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "drinks",
+      "staminargn",
+      "pseudomaxstamina",
+      "resistancefire",
+      "resistancecold"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_sausage_staminaregen_40",
+    "name": "Fine Venison Sausage",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/sausage/t_icon_fine_venison_sausage.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 30,
+    "cooldownTag": "FoodCooked.Sausage",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 6.3
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 180.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 30.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_potion_arcance_resistance_very_small_16",
+    "name": "Fire Resistance I",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_protectionfire_l03.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 13,
+    "cooldownTag": "Potion.MagicalResistBuff.VerySmall",
+    "givesAttributes": [
+      {
+        "key": "ResistanceFire",
+        "value": 45.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "resistancefire"
+    ]
+  },
+  {
+    "id": "activatable_potion_arcance_resistance_small_43",
+    "name": "Fire Resistance II",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_protectionfire_l04.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 25,
+    "cooldownTag": "Potion.MagicalResistBuff.Small",
+    "givesAttributes": [
+      {
+        "key": "ResistanceFire",
+        "value": 60.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "resistancefire"
+    ]
+  },
+  {
+    "id": "activatable_potion_arcance_resistance_medium_76",
+    "name": "Fire Resistance III",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_protectionfire_l05.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 38,
+    "cooldownTag": "Potion.MagicalResistBuff.Medium",
+    "givesAttributes": [
+      {
+        "key": "ResistanceFire",
+        "value": 80.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "resistancefire"
+    ]
+  },
+  {
+    "id": "activatable_foodraw_mushroom_berserker_hpregen__poisonous_13",
+    "name": "Fly Agaric",
+    "iconPath": "/images/{height}/environment/nature/resources/mushrooms_poisonous/berserker/t_berserker_02_icon.webp",
+    "tier": 1,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier1.webp",
+    "itemLevel": 8,
+    "givesAttributes": [
+      {
+        "key": "PseudoMaxHealth",
+        "value": -60.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": -10.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "raw_food",
+      "cooked_food",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_foodraw_mushroom_fools_webcap_hpregen__poisonous_49",
+    "name": "Fools Webcap",
+    "iconPath": "/images/{height}/environment/nature/resources/mushrooms_poisonous/fools_webcap/t_fools_webcap_01_icon.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 27,
+    "givesAttributes": [
+      {
+        "key": "PseudoMaxHealth",
+        "value": -90.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": -15.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "raw_food",
+      "cooked_food",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_bread_hpregen_10",
+    "name": "Fruity Rye Bread",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/bread/t_icon_fruity_rye_bread.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 11,
+    "cooldownTag": "FoodCooked.Bread",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 3.9
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 110.0
+      },
+      {
+        "key": "PiercingPhysicalResistance",
+        "value": 2.0
+      },
+      {
+        "key": "BluntPhysicalResistance",
+        "value": 10.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "healthrgn",
+      "pseudomaxhealth",
+      "piercingphysicalresistance",
+      "bluntphysicalresistance"
+    ]
+  },
+  {
+    "id": "activatable_drink_wine_damagebuff_39",
+    "name": "Gallian Red",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/bottles/t_winebottle_red_icon.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 38,
+    "cooldownTag": "Drink.Wine",
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 0.6
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 52.0
+      },
+      {
+        "key": "ResistanceMental",
+        "value": 17.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "drinks",
+      "staminargn",
+      "pseudomaxstamina",
+      "resistancemental"
+    ]
+  },
+  {
+    "id": "activatable_drink_herbal_tea_hpregen_12",
+    "name": "Garlic Tea",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/bottles/t_teakettle_brown_icon.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 35,
+    "cooldownTag": "Drink.HerbalTea",
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 0.5
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 66.0
+      },
+      {
+        "key": "ResistanceFire",
+        "value": 6.0
+      },
+      {
+        "key": "ResistanceCold",
+        "value": 6.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "drinks",
+      "staminargn",
+      "pseudomaxstamina",
+      "resistancefire",
+      "resistancecold"
+    ]
+  },
+  {
+    "id": "activatable_drink_barley_water_staminaregen_23",
+    "name": "Golden Barley Water",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/bottles/t_pitcherbeer_icon.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 11,
+    "cooldownTag": "Drink.BarleyWater",
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 0.3
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 28.0
+      },
+      {
+        "key": "ResistanceFire",
+        "value": 5.0
+      },
+      {
+        "key": "ResistanceCold",
+        "value": 5.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "drinks",
+      "staminargn",
+      "pseudomaxstamina",
+      "resistancefire",
+      "resistancecold"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_porridge_resistancebuff_31",
+    "name": "Golden Porridge",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/porridge/t_icon_golden_porridge.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 32,
+    "cooldownTag": "FoodCooked.porridge",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 6.5
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 180.0
+      },
+      {
+        "key": "SlashingPhysicalResistance",
+        "value": 4.0
+      },
+      {
+        "key": "PiercingPhysicalResistance",
+        "value": 16.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "healthrgn",
+      "pseudomaxhealth",
+      "slashingphysicalresistance",
+      "piercingphysicalresistance"
+    ]
+  },
+  {
+    "id": "activatable_foodraw_green_apple_maxhp_23",
+    "name": "Green Apple",
+    "iconPath": "/images/{height}/environment/nature/resources/fruit/appletree/t_green_apple_inv_state_icon.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 41,
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 7.6
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 210.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 30.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "raw_food",
+      "cooked_food",
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_grilled_meat_maxhp_1",
+    "name": "Grilled Meat Hunks",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/roast/t_icon_grilled_meat_chunks.webp",
+    "tier": 1,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier1.webp",
+    "itemLevel": 2,
+    "cooldownTag": "FoodCooked.GrilledMeat",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 2.8
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 80.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 9.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_drink_ale_resistancebuff_29",
+    "name": "Harvest Glow Ale",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/bottles/t_pitcherale_grey_icon.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 35,
+    "cooldownTag": "Drink.Ale",
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 1.1
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 190.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 17.0
+      },
+      {
+        "key": "ResistanceCold",
+        "value": 17.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "drinks",
+      "staminargn",
+      "pseudomaxhealth",
+      "pseudomaxstamina",
+      "resistancecold"
+    ]
+  },
+  {
+    "id": "activatable_drink_ale_maxhp_17",
+    "name": "Harvest Gold Ale",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/bottles/t_pitcherale_icon.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 20,
+    "cooldownTag": "Drink.Ale",
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 0.8
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 140.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 12.0
+      },
+      {
+        "key": "ResistanceCold",
+        "value": 12.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "drinks",
+      "staminargn",
+      "pseudomaxhealth",
+      "pseudomaxstamina",
+      "resistancecold"
+    ]
+  },
+  {
+    "id": "activatable_potion_hp_regeneration_medium_72",
+    "name": "Healing Potion I",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_healing_regen_l04.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 33,
+    "cooldownTag": "Potion.HPRegen.Medium",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 29.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "healthrgn"
+    ]
+  },
+  {
+    "id": "activatable_potion_hp_potion_medium_71",
+    "name": "Health Tonic I",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_healing_l04.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 35,
+    "cooldownTag": "Potion.HPInstant.Medium",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 300.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "healthrgn"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_sweet_and_dessert_damagebuff_52",
+    "name": "Heavy Whitbread",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/bread/t_icon_heavy_whitbread.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 37,
+    "cooldownTag": "FoodCooked.SweetandDessert",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 7.1
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 200.0
+      },
+      {
+        "key": "SlashingPhysicalResistance",
+        "value": 10.0
+      },
+      {
+        "key": "BluntPhysicalResistance",
+        "value": 5.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "healthrgn",
+      "pseudomaxhealth",
+      "slashingphysicalresistance",
+      "bluntphysicalresistance"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_sausage_maxstamina_48",
+    "name": "Hero Sausage",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/sausage/t_icon_hero_sausage.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 34,
+    "cooldownTag": "FoodCooked.Sausage",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 6.8
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 190.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 30.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_stew_resistancebuff_17",
+    "name": "Homely Stew",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/stew/t_homley_stew.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 21,
+    "cooldownTag": "FoodCooked.Stew",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 5.1
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 150.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 49.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_drink_cider_maxstamina_57",
+    "name": "Kerys Cider",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/bottles/t_cider_icon.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 33,
+    "cooldownTag": "Drink.Cider",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 6.6
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 190.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 64.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "drinks",
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_sausage_hpregen_9",
+    "name": "Langres Links",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/sausage/t_icon_langres_links.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 11,
+    "cooldownTag": "FoodCooked.Sausage",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 3.9
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 110.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 20.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_potion_potion_of_spirit_medium_63",
+    "name": "Large Potion of Spirit I",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_strength_regen_l04.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 31,
+    "cooldownTag": "Potion.EnergyRegen.Medium",
+    "givesAttributes": [
+      {
+        "key": "EnergyRgn",
+        "value": 160.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "energyrgn"
+    ]
+  },
+  {
+    "id": "activatable_potion_potion_of_spirit_medium_79",
+    "name": "Large Potion of Spirit II",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_strength_regen_l04.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 38,
+    "cooldownTag": "Potion.EnergyRegen.Medium",
+    "givesAttributes": [
+      {
+        "key": "EnergyRgn",
+        "value": 200.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "energyrgn"
+    ]
+  },
+  {
+    "id": "activatable_drink_wine_maxstamina_22",
+    "name": "Lora des Papes",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/bottles/t_winebottle_icon.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 37,
+    "cooldownTag": "Drink.Wine",
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 0.6
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 51.0
+      },
+      {
+        "key": "ResistanceMental",
+        "value": 17.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "drinks",
+      "staminargn",
+      "pseudomaxstamina",
+      "resistancemental"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_bread_hpregen_54",
+    "name": "Malt Bread",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/bread/t_icon_malt_bread.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 38,
+    "cooldownTag": "FoodCooked.Bread",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 7.3
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 200.0
+      },
+      {
+        "key": "PiercingPhysicalResistance",
+        "value": 2.0
+      },
+      {
+        "key": "BluntPhysicalResistance",
+        "value": 15.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "healthrgn",
+      "pseudomaxhealth",
+      "piercingphysicalresistance",
+      "bluntphysicalresistance"
+    ]
+  },
+  {
+    "id": "activatable_drink_ale_resistancebuff_18",
+    "name": "Meadow Song Ale",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/bottles/t_pitcherale_grey_icon.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 21,
+    "cooldownTag": "Drink.Ale",
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 0.9
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 150.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 12.0
+      },
+      {
+        "key": "ResistanceCold",
+        "value": 12.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "drinks",
+      "staminargn",
+      "pseudomaxhealth",
+      "pseudomaxstamina",
+      "resistancecold"
+    ]
+  },
+  {
+    "id": "activatable_potion_hp_regeneration_very_small_34",
+    "name": "Minor Healing Potion I",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_healing_regen_l02.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 18,
+    "cooldownTag": "Potion.HPRegen.Small",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 19.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "healthrgn"
+    ]
+  },
+  {
+    "id": "activatable_potion_hp_regeneration_small_46",
+    "name": "Minor Healing Potion II",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_healing_regen_l03.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 23,
+    "cooldownTag": "Potion.HPRegen.Small",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 22.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "healthrgn"
+    ]
+  },
+  {
+    "id": "activatable_potion_hp_regeneration_small_56",
+    "name": "Minor Healing Potion III",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_healing_regen_l03.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 28,
+    "cooldownTag": "Potion.HPRegen.Small",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 26.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "healthrgn"
+    ]
+  },
+  {
+    "id": "activatable_potion_hp_potion_very_small_33",
+    "name": "Minor Health Tonic I",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_healing_l02.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 20,
+    "cooldownTag": "Potion.HPInstant.Small",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 200.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "healthrgn"
+    ]
+  },
+  {
+    "id": "activatable_potion_hp_potion_small_45",
+    "name": "Minor Health Tonic II",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_healing_l03.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 25,
+    "cooldownTag": "Potion.HPInstant.Small",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 230.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "healthrgn"
+    ]
+  },
+  {
+    "id": "activatable_potion_hp_potion_small_55",
+    "name": "Minor Health Tonic III",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_healing_l03.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 30,
+    "cooldownTag": "Potion.HPInstant.Small",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 270.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "healthrgn"
+    ]
+  },
+  {
+    "id": "activatable_potion_potion_of_vitality_small_37",
+    "name": "Minor Tonic of Vitality I",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_strength_l03.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 22,
+    "cooldownTag": "Potion.StaminaInstant.Small",
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 40.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "staminargn"
+    ]
+  },
+  {
+    "id": "activatable_potion_potion_of_vitality_small_49",
+    "name": "Minor Tonic of Vitality II",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_strength_l03.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 27,
+    "cooldownTag": "Potion.StaminaInstant.Small",
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 60.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "staminargn"
+    ]
+  },
+  {
+    "id": "activatable_potion_potion_of_vitality_medium_64",
+    "name": "Minor Tonic of Vitality III",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_strength_l04.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 32,
+    "cooldownTag": "Potion.StaminaInstant.Medium",
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 80.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "staminargn"
+    ]
+  },
+  {
+    "id": "activatable_foodraw_mushroom_morel_maxhp_58",
+    "name": "Morel",
+    "iconPath": "/images/{height}/environment/nature/resources/mushrooms_cooking/morel/t_morel_01_icon.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 41,
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 7.6
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 210.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 15.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "raw_food",
+      "cooked_food",
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_roast_maxstamina_16",
+    "name": "Mountain Roast",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/roast/t_icon_mountian_roast.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 14,
+    "cooldownTag": "FoodCooked.Roast",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 4.3
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 120.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 15.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_drink_wine_maxhp_52",
+    "name": "Mulled Redwine",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/bottles/t_winebottle_pink_icon.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 40,
+    "cooldownTag": "Drink.Wine",
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 0.6
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 54.0
+      },
+      {
+        "key": "ResistanceMental",
+        "value": 18.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "drinks",
+      "staminargn",
+      "pseudomaxstamina",
+      "resistancemental"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_vegetable_stew_staminaregen_21",
+    "name": "Mushroom and Vegetable Stew",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/stew/t_icon_mushroom_vegetable_stew.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 24,
+    "cooldownTag": "FoodCooked.VegetableStew",
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 0.9
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 53.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "staminargn",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_foodraw_deadly_nightshade_fruit_staminaregen_60",
+    "name": "Nightshade Fruit",
+    "iconPath": "/images/{height}/environment/nature/resources/herbsflowerspotions/nightshade/t_nightshade_small_01_inv_state_fruit_icon.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 30,
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": -4.0
+      },
+      {
+        "key": "StaminaRgn",
+        "value": -2.0
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": -40.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": -10.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "raw_food",
+      "cooked_food",
+      "healthrgn",
+      "staminargn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_foodraw_mushroom_oyster_maxhp_10",
+    "name": "Oyster Mushroom",
+    "iconPath": "/images/{height}/environment/nature/resources/mushrooms_cooking/oyster_mushroom/t_oyster_mushroom_01_icon.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 27,
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 1.0
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 170.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 10.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "raw_food",
+      "cooked_food",
+      "staminargn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_foodraw_mushroom_pennybun_maxstamina_11",
+    "name": "Penny Bun",
+    "iconPath": "/images/{height}/environment/nature/resources/mushrooms_cooking/penny_bun/t_penny_bun_01_icon.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 17,
+    "givesAttributes": [
+      {
+        "key": "PseudoMaxHealth",
+        "value": 130.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 28.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "raw_food",
+      "cooked_food",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_drink_wine_damagebuff_25",
+    "name": "Piquette",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/bottles/t_winebottle_red_icon.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 31,
+    "cooldownTag": "Drink.Wine",
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 0.5
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 46.0
+      },
+      {
+        "key": "ResistanceMental",
+        "value": 15.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "drinks",
+      "staminargn",
+      "pseudomaxstamina",
+      "resistancemental"
+    ]
+  },
+  {
+    "id": "activatable_drink_ale_resistancebuff_10",
+    "name": "Plain Ale",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/bottles/t_pitcherale_grey_icon.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 13,
+    "cooldownTag": "Drink.Ale",
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 0.7
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 120.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 10.0
+      },
+      {
+        "key": "ResistanceCold",
+        "value": 10.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "drinks",
+      "staminargn",
+      "pseudomaxhealth",
+      "pseudomaxstamina",
+      "resistancecold"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_porridge_hpregen_27",
+    "name": "Plain Barley Porridge",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/porridge/t_icon_plain_braley_porridge.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 27,
+    "cooldownTag": "FoodCooked.porridge",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 5.9
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 170.0
+      },
+      {
+        "key": "SlashingPhysicalResistance",
+        "value": 4.0
+      },
+      {
+        "key": "PiercingPhysicalResistance",
+        "value": 14.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "healthrgn",
+      "pseudomaxhealth",
+      "slashingphysicalresistance",
+      "piercingphysicalresistance"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_bread_hpregen_28",
+    "name": "Plain Oat Bread",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/bread/t_icon_plain_oat_bread.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 23,
+    "cooldownTag": "FoodCooked.Bread",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 5.4
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 150.0
+      },
+      {
+        "key": "PiercingPhysicalResistance",
+        "value": 2.0
+      },
+      {
+        "key": "BluntPhysicalResistance",
+        "value": 10.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "healthrgn",
+      "pseudomaxhealth",
+      "piercingphysicalresistance",
+      "bluntphysicalresistance"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_bread_hpregen_3",
+    "name": "Plain Rye Bread",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/bread/t_icon_plain_rye_bread.webp",
+    "tier": 1,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier1.webp",
+    "itemLevel": 5,
+    "cooldownTag": "FoodCooked.Bread",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 3.1
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 90.0
+      },
+      {
+        "key": "PiercingPhysicalResistance",
+        "value": 2.0
+      },
+      {
+        "key": "BluntPhysicalResistance",
+        "value": 10.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "healthrgn",
+      "pseudomaxhealth",
+      "piercingphysicalresistance",
+      "bluntphysicalresistance"
+    ]
+  },
+  {
+    "id": "activatable_potion_arcance_resistance_very_small_23",
+    "name": "Poison Resistance I",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_protectionpoison_l03.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 16,
+    "cooldownTag": "Potion.MagicalResistBuff.VerySmall",
+    "givesAttributes": [
+      {
+        "key": "ResistancePoison",
+        "value": 50.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "resistancepoison"
+    ]
+  },
+  {
+    "id": "activatable_potion_arcance_resistance_small_52",
+    "name": "Poison Resistance II",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_protectionpoison_l04.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 28,
+    "cooldownTag": "Potion.MagicalResistBuff.Small",
+    "givesAttributes": [
+      {
+        "key": "ResistancePoison",
+        "value": 65.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "resistancepoison"
+    ]
+  },
+  {
+    "id": "activatable_potion_arcance_resistance_medium_84",
+    "name": "Poison Resistance III",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_protectionpoison_l05.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 41,
+    "cooldownTag": "Potion.MagicalResistBuff.Medium",
+    "givesAttributes": [
+      {
+        "key": "ResistancePoison",
+        "value": 80.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "resistancepoison"
+    ]
+  },
+  {
+    "id": "activatable_potion_potion_of_spirit_small_36",
+    "name": "Potion of Spirit I",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_strength_regen_l03.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 21,
+    "cooldownTag": "Potion.EnergyRegen.Small",
+    "givesAttributes": [
+      {
+        "key": "EnergyRgn",
+        "value": 120.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "energyrgn"
+    ]
+  },
+  {
+    "id": "activatable_potion_potion_of_spirit_small_48",
+    "name": "Potion of Spirit II",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_strength_regen_l03.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 28,
+    "cooldownTag": "Potion.EnergyRegen.Small",
+    "givesAttributes": [
+      {
+        "key": "EnergyRgn",
+        "value": 150.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "energyrgn"
+    ]
+  },
+  {
+    "id": "activatable_potion_potion_of_protection_medium_77",
+    "name": "Potion of the Aegis",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_protection_l04.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 38,
+    "cooldownTag": "Potion.PhysicalResistBuff.Medium",
+    "givesAttributes": [
+      {
+        "key": "SlashingPhysicalResistance",
+        "value": 30.0
+      },
+      {
+        "key": "PiercingPhysicalResistance",
+        "value": 30.0
+      },
+      {
+        "key": "BluntPhysicalResistance",
+        "value": 30.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "slashingphysicalresistance",
+      "piercingphysicalresistance",
+      "bluntphysicalresistance"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_raisins_staminaregen_6",
+    "name": "Raisins",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/raisins/t_raisins_icon.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 33,
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 1.1
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 190.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 27.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "staminargn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_foodraw_berry_raspberry_maxstamina_3",
+    "name": "Raspberry",
+    "iconPath": "/images/{height}/environment/nature/resources/berries/raspberry/t_raspberry_08_inv_state_icon.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 15,
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 4.4
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 130.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 9.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "raw_food",
+      "cooked_food",
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_drink_mead_staminaregen_24",
+    "name": "Raspberry Mead",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/flagon/t_flagon_02_mead_desatbrown_icon.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 26,
+    "cooldownTag": "Drink.Mead",
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 0.3
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 160.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 28.0
+      },
+      {
+        "key": "ResistanceFire",
+        "value": 14.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "drinks",
+      "staminargn",
+      "pseudomaxhealth",
+      "pseudomaxstamina",
+      "resistancefire"
+    ]
+  },
+  {
+    "id": "activatable_drink_sirup_hpregen_13",
+    "name": "Raspberry Syrup",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/bottles/t_sirup_red_icon.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 18,
+    "cooldownTag": "Drink.Sirup",
+    "givesAttributes": [
+      {
+        "key": "PseudoMaxHealth",
+        "value": 140.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 23.0
+      },
+      {
+        "key": "ResistanceFire",
+        "value": 6.0
+      },
+      {
+        "key": "ResistancePoison",
+        "value": 6.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "drinks",
+      "pseudomaxhealth",
+      "pseudomaxstamina",
+      "resistancefire",
+      "resistancepoison"
+    ]
+  },
+  {
+    "id": "activatable_foodraw_red_apple_maxhp_22",
+    "name": "Red Apple",
+    "iconPath": "/images/{height}/environment/nature/resources/fruit/appletree/t_red_apple_inv_state_icon.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 21,
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 5.1
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 150.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 20.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "raw_food",
+      "cooked_food",
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_foodraw_berry_red_currant_staminaregen_12",
+    "name": "Red Currant",
+    "iconPath": "/images/{height}/environment/nature/resources/berries/redcurrant/t_redcurrant_01_icon.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 25,
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 5.6
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 160.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 10.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "raw_food",
+      "cooked_food",
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_drink_mead_staminaregen_36",
+    "name": "Red Currant Mead",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/flagon/t_flagon_02_mead_desatbrown_icon.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 38,
+    "cooldownTag": "Drink.Mead",
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 0.4
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 200.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 35.0
+      },
+      {
+        "key": "ResistanceFire",
+        "value": 17.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "drinks",
+      "staminargn",
+      "pseudomaxhealth",
+      "pseudomaxstamina",
+      "resistancefire"
+    ]
+  },
+  {
+    "id": "activatable_drink_sirup_hpregen_33",
+    "name": "Red Currant Syrup",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/bottles/t_sirup_red_icon.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 28,
+    "cooldownTag": "Drink.Sirup",
+    "givesAttributes": [
+      {
+        "key": "PseudoMaxHealth",
+        "value": 170.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 29.0
+      },
+      {
+        "key": "ResistanceFire",
+        "value": 7.0
+      },
+      {
+        "key": "ResistancePoison",
+        "value": 7.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "drinks",
+      "pseudomaxhealth",
+      "pseudomaxstamina",
+      "resistancefire",
+      "resistancepoison"
+    ]
+  },
+  {
+    "id": "activatable_foodraw_berry_grape_red_staminaregen_21",
+    "name": "Red Grapes",
+    "iconPath": "/images/{height}/environment/nature/resources/berries/grapes/t_grapes_red_inv_state_icon.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 40,
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 7.5
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 210.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 45.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "raw_food",
+      "cooked_food",
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_roast_damagebuff_24",
+    "name": "Roast bear with rosemary",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/roast/t_icon_roasted_bear_rosemary.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 19,
+    "cooldownTag": "FoodCooked.Roast",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 4.9
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 140.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 15.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_roast_damagebuff_35",
+    "name": "Roasted Boar",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/roast/t_icon_roasted_boar.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 25,
+    "cooldownTag": "FoodCooked.Roast",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 5.6
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 160.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 20.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_vegetable_stew_maxstamina_26",
+    "name": "Roasted Cabbage Stew",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/stew/t_icon_roasted_cabbage_stew.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 29,
+    "cooldownTag": "FoodCooked.VegetableStew",
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 1.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 59.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "staminargn",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_foodraw_berry_rosehip_hpregen_29",
+    "name": "Rosehip",
+    "iconPath": "/images/{height}/environment/nature/resources/berries/rose_hip/t_rose_hip_var07_inv_state_icon.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 19,
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 4.9
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 140.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 10.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "raw_food",
+      "cooked_food",
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_drink_herbal_tea_maxhp_9",
+    "name": "Rosemary Tea",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/bottles/t_teakettle_icon.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 31,
+    "cooldownTag": "Drink.HerbalTea",
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 0.5
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 61.0
+      },
+      {
+        "key": "ResistanceFire",
+        "value": 5.0
+      },
+      {
+        "key": "ResistanceCold",
+        "value": 5.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "drinks",
+      "staminargn",
+      "pseudomaxstamina",
+      "resistancefire",
+      "resistancecold"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_bread_hpregen_44",
+    "name": "Rosy Oat Bread",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/bread/t_icon_rosy_oat_bread.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 31,
+    "cooldownTag": "FoodCooked.Bread",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 6.4
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 180.0
+      },
+      {
+        "key": "PiercingPhysicalResistance",
+        "value": 2.0
+      },
+      {
+        "key": "BluntPhysicalResistance",
+        "value": 15.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "healthrgn",
+      "pseudomaxhealth",
+      "piercingphysicalresistance",
+      "bluntphysicalresistance"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_bread_resistancebuff_5",
+    "name": "Rye and Berry Bread",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/bread/t_icon_rye_berry_bread.webp",
+    "tier": 1,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier1.webp",
+    "itemLevel": 6,
+    "cooldownTag": "FoodCooked.Bread",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 3.3
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 100.0
+      },
+      {
+        "key": "PiercingPhysicalResistance",
+        "value": 2.0
+      },
+      {
+        "key": "BluntPhysicalResistance",
+        "value": 10.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "healthrgn",
+      "pseudomaxhealth",
+      "piercingphysicalresistance",
+      "bluntphysicalresistance"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_stew_resistancebuff_29",
+    "name": "Shank Stew",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/stew/t_icon_shank_stew.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 25,
+    "cooldownTag": "FoodCooked.porridge",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 5.6
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 160.0
+      },
+      {
+        "key": "SlashingPhysicalResistance",
+        "value": 3.0
+      },
+      {
+        "key": "PiercingPhysicalResistance",
+        "value": 14.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "healthrgn",
+      "pseudomaxhealth",
+      "slashingphysicalresistance",
+      "piercingphysicalresistance"
+    ]
+  },
+  {
+    "id": "activatable_drink_cider_maxstamina_7",
+    "name": "Shire Gold",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/bottles/t_cider_icon.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 10,
+    "cooldownTag": "Drink.Cider",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 3.8
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 110.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 36.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "drinks",
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_roast_damagebuff_4",
+    "name": "Simple Roast",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/roast/t_icon_simple_roast.webp",
+    "tier": 1,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier1.webp",
+    "itemLevel": 6,
+    "cooldownTag": "FoodCooked.Roast",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 3.3
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 100.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 10.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_sweet_and_dessert_damagebuff_23",
+    "name": "Simple Whitbread",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/bread/t_icon_simple_whitbread.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 19,
+    "cooldownTag": "FoodCooked.SweetandDessert",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 4.9
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 140.0
+      },
+      {
+        "key": "SlashingPhysicalResistance",
+        "value": 5.0
+      },
+      {
+        "key": "BluntPhysicalResistance",
+        "value": 5.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "healthrgn",
+      "pseudomaxhealth",
+      "slashingphysicalresistance",
+      "bluntphysicalresistance"
+    ]
+  },
+  {
+    "id": "activatable_foodraw_mushroom_skullcap_staminaregen__poisonous_68",
+    "name": "Skullcap",
+    "iconPath": "/images/{height}/environment/nature/resources/mushrooms_poisonous/galerina_marginata/t_galerina_marginata_01_icon.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 34,
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": -2.0
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": -40.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": -15.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "raw_food",
+      "cooked_food",
+      "staminargn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_drink_beer_damagebuff_26",
+    "name": "Small Beer",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/bottles/t_pitcherbeer_red_icon.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 30,
+    "cooldownTag": "Drink.Beer",
+    "givesAttributes": [
+      {
+        "key": "PseudoMaxHealth",
+        "value": 180.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 60.0
+      },
+      {
+        "key": "ResistanceMental",
+        "value": 8.0
+      },
+      {
+        "key": "ResistancePoison",
+        "value": 8.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "drinks",
+      "pseudomaxhealth",
+      "pseudomaxstamina",
+      "resistancemental",
+      "resistancepoison"
+    ]
+  },
+  {
+    "id": "activatable_drink_cider_maxstamina_2",
+    "name": "Small Cider",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/bottles/t_cider_icon.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 15,
+    "cooldownTag": "Drink.Cider",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 4.4
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 130.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 42.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "drinks",
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_potion_potion_of_spirit_tiny_6",
+    "name": "Small Potion of Spirit I",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_strength_regen_l01.webp",
+    "tier": 1,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier1.webp",
+    "itemLevel": 8,
+    "cooldownTag": "Potion.EnergyRegen.Small",
+    "givesAttributes": [
+      {
+        "key": "EnergyRgn",
+        "value": 60.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "energyrgn"
+    ]
+  },
+  {
+    "id": "activatable_potion_potion_of_spirit_very_small_13",
+    "name": "Small Potion of Spirit II",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_strength_regen_l02.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 11,
+    "cooldownTag": "Potion.EnergyRegen.Small",
+    "givesAttributes": [
+      {
+        "key": "EnergyRgn",
+        "value": 70.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "energyrgn"
+    ]
+  },
+  {
+    "id": "activatable_potion_potion_of_spirit_very_small_26",
+    "name": "Small Potion of Spirit III",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_strength_regen_l02.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 18,
+    "cooldownTag": "Potion.EnergyRegen.Small",
+    "givesAttributes": [
+      {
+        "key": "EnergyRgn",
+        "value": 110.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "energyrgn"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_grilled_meat_maxhp_25",
+    "name": "Spiced Grilled Meat Hunks",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/roast/t_icon_spiced_grilled_meat_chunks.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 10,
+    "cooldownTag": "FoodCooked.GrilledMeat",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 3.8
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 110.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 13.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_vegetable_stew_maxstamina_8",
+    "name": "Springtime Stew",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/stew/t_icon_springtime_stew.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 15,
+    "cooldownTag": "FoodCooked.VegetableStew",
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 0.8
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 42.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "staminargn",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_potion_arcance_resistance_small_39",
+    "name": "Steady Mind I",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_protectionmental_l04.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 22,
+    "cooldownTag": "Potion.MagicalResistBuff.Small",
+    "givesAttributes": [
+      {
+        "key": "ResistanceMental",
+        "value": 60.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "resistancemental"
+    ]
+  },
+  {
+    "id": "activatable_potion_arcance_resistance_medium_68",
+    "name": "Steady Mind II",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_protectionmental_l05.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 35,
+    "cooldownTag": "Potion.MagicalResistBuff.Medium",
+    "givesAttributes": [
+      {
+        "key": "ResistanceMental",
+        "value": 75.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "resistancemental"
+    ]
+  },
+  {
+    "id": "activatable_foodraw_berry_strawberry_staminaregen_4",
+    "name": "Strawberry",
+    "iconPath": "/images/{height}/environment/nature/resources/berries/strawberry/t_strawberry_inv_state_icon.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 12,
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 0.5
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 120.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 12.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "raw_food",
+      "cooked_food",
+      "staminargn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_drink_cider_resistancebuff_5",
+    "name": "Strawberry Mead",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/bottles/t_cider_black_icon.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 11,
+    "cooldownTag": "Drink.Cider",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 3.9
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 110.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 37.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "drinks",
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_drink_mead_damagebuff_27",
+    "name": "Strawberry Mead",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/flagon/t_flagon_02_mead_icon.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 30,
+    "cooldownTag": "Drink.Mead",
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 0.4
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 180.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 30.0
+      },
+      {
+        "key": "ResistanceFire",
+        "value": 15.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "drinks",
+      "staminargn",
+      "pseudomaxhealth",
+      "pseudomaxstamina",
+      "resistancefire"
+    ]
+  },
+  {
+    "id": "activatable_drink_sirup_hpregen_20",
+    "name": "Strawberry Syrup",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/bottles/t_sirup_red_icon.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 23,
+    "cooldownTag": "Drink.Sirup",
+    "givesAttributes": [
+      {
+        "key": "PseudoMaxHealth",
+        "value": 150.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 26.0
+      },
+      {
+        "key": "ResistanceFire",
+        "value": 6.0
+      },
+      {
+        "key": "ResistancePoison",
+        "value": 6.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "drinks",
+      "pseudomaxhealth",
+      "pseudomaxstamina",
+      "resistancefire",
+      "resistancepoison"
+    ]
+  },
+  {
+    "id": "activatable_drink_beer_damagebuff_37",
+    "name": "Summer Brew",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/bottles/t_pitcherbeer_red_icon.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 37,
+    "cooldownTag": "Drink.Beer",
+    "givesAttributes": [
+      {
+        "key": "PseudoMaxHealth",
+        "value": 200.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 68.0
+      },
+      {
+        "key": "ResistanceMental",
+        "value": 9.0
+      },
+      {
+        "key": "ResistancePoison",
+        "value": 9.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "drinks",
+      "pseudomaxhealth",
+      "pseudomaxstamina",
+      "resistancemental",
+      "resistancepoison"
+    ]
+  },
+  {
+    "id": "activatable_drink_cider_maxstamina_14",
+    "name": "Summer heat",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/bottles/t_cider_icon.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 29,
+    "cooldownTag": "Drink.Cider",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 6.1
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 170.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 59.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "drinks",
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_drink_mead_damagebuff_38",
+    "name": "Sweet Mead",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/flagon/t_flagon_02_mead_icon.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 34,
+    "cooldownTag": "Drink.Mead",
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 0.4
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 190.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 32.0
+      },
+      {
+        "key": "ResistanceFire",
+        "value": 16.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "drinks",
+      "staminargn",
+      "pseudomaxhealth",
+      "pseudomaxstamina",
+      "resistancefire"
+    ]
+  },
+  {
+    "id": "activatable_potion_potion_of_vitality_medium_80",
+    "name": "Tonic of Vitality I",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_strength_l04.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 37,
+    "cooldownTag": "Potion.StaminaInstant.Medium",
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 100.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "staminargn"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_pastry_staminaregen_22",
+    "name": "Trail Pie",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/pastry/t_braided_pastry_icon.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 18,
+    "cooldownTag": "FoodCooked.Pie",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 4.8
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 140.0
+      },
+      {
+        "key": "SlashingPhysicalResistance",
+        "value": 10.0
+      },
+      {
+        "key": "PiercingPhysicalResistance",
+        "value": 2.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "healthrgn",
+      "pseudomaxhealth",
+      "slashingphysicalresistance",
+      "piercingphysicalresistance"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_vegetable_stew_staminaregen_11",
+    "name": "Vegetable Stew",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/stew/t_icon_vegetable_stew.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 19,
+    "cooldownTag": "FoodCooked.VegetableStew",
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 0.8
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 47.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "staminargn",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_potion_hp_regeneration_tiny_3",
+    "name": "Weak Healing Potion I",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_healing_regen_l01.webp",
+    "tier": 1,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier1.webp",
+    "itemLevel": 3,
+    "cooldownTag": "Potion.HPRegen.Small",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 8.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "healthrgn"
+    ]
+  },
+  {
+    "id": "activatable_potion_hp_regeneration_tiny_10",
+    "name": "Weak Healing Potion II",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_healing_regen_l01.webp",
+    "tier": 1,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier1.webp",
+    "itemLevel": 8,
+    "cooldownTag": "Potion.HPRegen.Small",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 12.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "healthrgn"
+    ]
+  },
+  {
+    "id": "activatable_potion_hp_regeneration_very_small_21",
+    "name": "Weak Healing Potion III",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_healing_regen_l02.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 13,
+    "cooldownTag": "Potion.HPRegen.Small",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 15.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "healthrgn"
+    ]
+  },
+  {
+    "id": "activatable_potion_hp_potion_tiny_2",
+    "name": "Weak Health Tonic I",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_healing_l01.webp",
+    "tier": 1,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier1.webp",
+    "itemLevel": 5,
+    "cooldownTag": "Potion.HPInstant.Small",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 90.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "healthrgn"
+    ]
+  },
+  {
+    "id": "activatable_potion_hp_potion_tiny_9",
+    "name": "Weak Health Tonic II",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_healing_l01.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 10,
+    "cooldownTag": "Potion.HPInstant.Small",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 130.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "healthrgn"
+    ]
+  },
+  {
+    "id": "activatable_potion_hp_potion_very_small_20",
+    "name": "Weak Health Tonic III",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_healing_l02.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 15,
+    "cooldownTag": "Potion.HPInstant.Small",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 160.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "healthrgn"
+    ]
+  },
+  {
+    "id": "activatable_drink_mead_staminaregen_8",
+    "name": "Weak Mead",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/flagon/t_flagon_02_mead_desatbrown_icon.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 25,
+    "cooldownTag": "Drink.Mead",
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 0.3
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 160.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 27.0
+      },
+      {
+        "key": "ResistanceFire",
+        "value": 14.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "drinks",
+      "staminargn",
+      "pseudomaxhealth",
+      "pseudomaxstamina",
+      "resistancefire"
+    ]
+  },
+  {
+    "id": "activatable_potion_potion_of_vitality_tiny_7",
+    "name": "Weak Tonic of Vitality I",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_strength_l01.webp",
+    "tier": 1,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier1.webp",
+    "itemLevel": 7,
+    "cooldownTag": "Potion.StaminaInstant.Small",
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 3.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "staminargn"
+    ]
+  },
+  {
+    "id": "activatable_potion_potion_of_vitality_very_small_14",
+    "name": "Weak Tonic of Vitality II",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_strength_l02.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 12,
+    "cooldownTag": "Potion.StaminaInstant.Small",
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 15.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "staminargn"
+    ]
+  },
+  {
+    "id": "activatable_potion_potion_of_vitality_very_small_27",
+    "name": "Weak Tonic of Vitality III",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/potions/icons/t_icon_potion_strength_l02.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 17,
+    "cooldownTag": "Potion.StaminaInstant.Small",
+    "givesAttributes": [
+      {
+        "key": "StaminaRgn",
+        "value": 20.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "potion",
+      "staminargn"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_bread_maxhp_47",
+    "name": "Wheat Raisin Bread",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/bread/t_icon_wheat_raisin_bread.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 34,
+    "cooldownTag": "FoodCooked.Bread",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 6.8
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 190.0
+      },
+      {
+        "key": "PiercingPhysicalResistance",
+        "value": 2.0
+      },
+      {
+        "key": "BluntPhysicalResistance",
+        "value": 15.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "healthrgn",
+      "pseudomaxhealth",
+      "piercingphysicalresistance",
+      "bluntphysicalresistance"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_sweet_and_dessert_damagebuff_34",
+    "name": "Whitbread",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/bread/t_icon_whitbread.webp",
+    "tier": 3,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier3.webp",
+    "itemLevel": 25,
+    "cooldownTag": "FoodCooked.SweetandDessert",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 5.6
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 160.0
+      },
+      {
+        "key": "SlashingPhysicalResistance",
+        "value": 5.0
+      },
+      {
+        "key": "BluntPhysicalResistance",
+        "value": 5.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "healthrgn",
+      "pseudomaxhealth",
+      "slashingphysicalresistance",
+      "bluntphysicalresistance"
+    ]
+  },
+  {
+    "id": "activatable_foodraw_berry_grape_staminaregen_20",
+    "name": "White Grapes",
+    "iconPath": "/images/{height}/environment/nature/resources/berries/grapes/t_grapes_green_inv_state_icon.webp",
+    "tier": 4,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier4.webp",
+    "itemLevel": 30,
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 6.3
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 180.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 40.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "raw_food",
+      "cooked_food",
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  },
+  {
+    "id": "activatable_foodcooked_roast_damagebuff_13",
+    "name": "Woodsman Roast",
+    "iconPath": "/images/{height}/environment/props/economy/consumables/cookedfood/roast/t_icon_woodsman_roast.webp",
+    "tier": 2,
+    "tierIconPath": "/images/{height}/game/ux/inventory/textures/tier/t_ui_item_tier2.webp",
+    "itemLevel": 13,
+    "cooldownTag": "FoodCooked.Roast",
+    "givesAttributes": [
+      {
+        "key": "HealthRgn",
+        "value": 4.1
+      },
+      {
+        "key": "PseudoMaxHealth",
+        "value": 120.0
+      },
+      {
+        "key": "PseudoMaxStamina",
+        "value": 15.0
+      }
+    ],
+    "entityType": "Consumable",
+    "entityTypeName": "Consumable",
+    "listingPath": "consumables",
+    "categoryIds": [
+      "healthrgn",
+      "pseudomaxhealth",
+      "pseudomaxstamina"
+    ]
+  }
+]
