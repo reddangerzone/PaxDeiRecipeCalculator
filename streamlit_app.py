@@ -77,91 +77,134 @@ def is_charcoal_item(item_id, items):
 # RAW MATERIAL RESOLVER
 # --------------------------------------------------------------------
 def resolve(item_id, items, recipes, visited=None, needed=1):
+    """Return raw materials for item_id, guaranteed to return a dict."""
     if visited is None:
         visited = set()
 
+    # Prevent loops
     if item_id in visited:
         return {}
     visited.add(item_id)
 
-    # stop recursion for sand/charcoal etc.
+    # Terminal materials (stop recursion entirely)
     if is_sand_item(item_id, items) or is_charcoal_item(item_id, items):
         return {item_id: needed}
 
     craft_index = craftable_index()
 
-    # raw item
+    # Not craftable → raw item
     if item_id not in craft_index:
         return {item_id: needed}
 
-    recipe = recipes[craft_index[item_id]]
-    output_stack = recipe["outputs"][0]["count"]
-    crafts_needed = (needed + output_stack - 1) // output_stack  # ceil division
+    recipe = recipes.get(craft_index[item_id])
+    if not recipe:
+        # SAFETY: bad or missing recipe
+        return {item_id: needed}
+
+    outputs = recipe.get("outputs", [])
+    if not outputs:
+        # SAFETY: corrupt recipe with no outputs
+        return {item_id: needed}
+
+    output_stack = outputs[0].get("count", 1)
+    crafts_needed = (needed + output_stack - 1) // output_stack
 
     breakdown = {}
 
-    for ing in recipe["itemIngredients"]:
+    for ing in recipe.get("itemIngredients", []):
         ing_id = ing["entity"]["id"]
         qty_per_craft = ing["count"]
-
         sub_needed = qty_per_craft * crafts_needed
 
-        sub_tree = resolve(ing_id, items, recipes, visited.copy(), needed=sub_needed)
+        sub_tree = resolve(
+            ing_id, items, recipes,
+            visited=visited.copy(),
+            needed=sub_needed
+        )
+
+        # ——— SAFETY: enforce dict ———
+        if not isinstance(sub_tree, dict):
+            sub_tree = {}
+        # ————————————————
 
         for mat, qty in sub_tree.items():
             breakdown[mat] = breakdown.get(mat, 0) + qty
+
+    return breakdown
+
 
 
 # --------------------------------------------------------------------
 # INTERMEDIATE CRAFTABLE RESOLVER
 # --------------------------------------------------------------------
 def resolve_craftables(item_id, items, recipes, visited=None, needed=1, is_root=True):
+    """Return craftable intermediates for item_id. Guaranteed safe return of dict."""
     if visited is None:
         visited = set()
 
+    # Prevent recursion loops
     if item_id in visited:
         return {}
-
     visited.add(item_id)
-    craft_index = craftable_index()
 
-    # stop at sand/charcoal etc.
+    # Terminal materials: do not recurse
     if is_sand_item(item_id, items) or is_charcoal_item(item_id, items):
         return {}
 
     craft_index = craftable_index()
 
-    output_stack = get_output_count(item_id, recipes)
-
-    crafts_needed = (needed + output_stack - 1) // output_stack
-
-
-    # Non-root craftable → stop & count
-    if not is_root and item_id in craft_index:
-        return {item_id: 1}
-
-    # Raw → nothing to craft
+    # Raw materials never produce intermediates
     if item_id not in craft_index:
         return {}
 
+    # How many crafts needed?
+    recipe_id = craft_index.get(item_id)
+    recipe = recipes.get(recipe_id)
+    if not recipe:
+        return {}
+
+    outputs = recipe.get("outputs", [])
+    if not outputs:
+        return {}
+
+    output_stack = outputs[0].get("count", 1)
+    crafts_needed = (needed + output_stack - 1) // output_stack
+
+    # If craftable and not root, this item *is* an intermediate
+    if not is_root:
+        return {item_id: crafts_needed}
+
     breakdown = {}
 
-    recipe = recipes[craft_index[item_id]]
+    # Process ingredient list safely
+    for ing in recipe.get("itemIngredients", []):
+        entity = ing.get("entity", {})
+        ing_id = entity.get("id")
+        qty_per_craft = ing.get("count", 1)
 
-    for ing in recipe["itemIngredients"]:
-        ing_id = ing["entity"]["id"]
-        qty_per_craft = ing["count"]
+        # Safety: missing ID
+        if not ing_id:
+            continue
 
         sub_needed = qty_per_craft * crafts_needed
 
         sub_tree = resolve_craftables(
-            ing_id, items, recipes, visited.copy(),
+            ing_id, items, recipes,
+            visited=visited.copy(),
             needed=sub_needed,
             is_root=False
         )
 
+        # ——— SAFETY PATCH ———
+        if not isinstance(sub_tree, dict):
+            sub_tree = {}
+        # ————————————————
+
         for mat, qty in sub_tree.items():
             breakdown[mat] = breakdown.get(mat, 0) + qty
+
+    return breakdown
+
 
 
 # --------------------------------------------------------------------
