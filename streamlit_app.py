@@ -70,6 +70,8 @@ def craftable_index():
 def is_sand_item(item_id, items):
     return "sand" in items.get(item_id, {}).get("name", "").lower()
 
+def is_charcoal_item(item_id, items):
+    return "charcoal" in items.get(item_id, {}).get("name", "").lower()
 
 # --------------------------------------------------------------------
 # RAW MATERIAL RESOLVER
@@ -87,8 +89,7 @@ def resolve(item_id, items, recipes, visited=None):
 
     visited.add(item_id)
 
-    # Sand is a terminal material
-    if is_sand_item(item_id, items):
+    if is_sand_item(item_id, items) or is_charcoal_item(item_id, items):
         return {item_id: 1}
 
     craft_index = craftable_index()
@@ -126,8 +127,7 @@ def resolve_craftables(item_id, items, recipes, visited=None, is_root=True):
     visited.add(item_id)
     craft_index = craftable_index()
 
-    # Sand is never craftable
-    if is_sand_item(item_id, items):
+    if is_sand_item(item_id, items) or is_charcoal_item(item_id, items):
         return {}
 
     # Non-root craftable → stop & count
